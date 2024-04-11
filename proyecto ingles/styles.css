@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./nismo.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+.glossary {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+}
+
+dl {
+    margin-top: 20px;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+dd {
+    margin-left: 20px;
+    color: antiquewhite;
+}

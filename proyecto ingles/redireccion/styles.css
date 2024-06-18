@@ -9,6 +9,10 @@ body {
     background-attachment: fixed;
    
 }
+#arriba li{
+    padding-left: 5px;
+}
+
 
 .glossary {
     max-width: 800px;

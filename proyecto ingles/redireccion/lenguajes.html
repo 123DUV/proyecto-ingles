@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Glosario</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
@@ -13,9 +13,9 @@
 <body>
     <div id="content">
         <p id="inicio"></p>
-        <div>
+        <div id="arriba">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Navbar</a>
+               
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -25,18 +25,21 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#inicio">Home <span class="sr-only">(current)</span></a>
+                            <a class="boton btn btn-dark" href="../inicio.html">Home <span class="sr-only">(current)</span></a>
+                            
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="audios.html">Link</a>
+                        <li class="nav-item active">
+                            <a class="boton btn btn-dark" href="./lenguajes.html">inicio <span class="sr-only">(current)</span></a>
+                            
                         </li>
+                        
 
 
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" id="searchInput" type="search" placeholder="Search"
                             aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" id="searchButton"
+                        <button class="btn btn-outline-success my-2 my-sm-0" id="searchButton" onclick="buscar()"
                             type="submit">Search</button>
                         <ul id="results"></ul>
                     </form>
@@ -348,7 +351,7 @@
         </div>
         
         
-        <script src="script.js"></script>
+        <script src="./script.js"></script>
 </body>
 
 </html>
